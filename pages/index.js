@@ -506,6 +506,9 @@ export default function Home() {
             Not affiliated with Riot Games · Names not guaranteed to be available ·
             The Oracle accepts no responsibility for your MMR
           </p>
+          <p className="footer-legal">
+            <a href="https://elliott30.github.io/legal.html" target="_blank" rel="noopener noreferrer" className="footer-legal-link">Privacy Policy &amp; Terms</a>
+          </p>
         </footer>
       </div>
 
@@ -965,6 +968,24 @@ export default function Home() {
           color: #2E2418;
           letter-spacing: 0.03em;
           text-align: center;
+        }
+
+        .footer-legal {
+          font-size: 10px;
+          text-align: center;
+          margin-top: 2px;
+        }
+
+        .footer-legal-link {
+          color: #3A2E1E;
+          text-decoration: none;
+          letter-spacing: 0.03em;
+          opacity: 0.6;
+          transition: opacity 0.2s;
+        }
+
+        .footer-legal-link:hover {
+          opacity: 1;
         }
 
         /* ── Responsive ── */
